@@ -13,14 +13,13 @@ def get_weather_forecast():
     weather_text.delete(1.0, tk.END)
     
     if city and start_date and end_date:
-        weather_info = print_weather_every_3_hours(city, start_date, end_date)
-        if weather_info:
+        try:
+            weather_info = print_weather_every_3_hours(city, start_date, end_date)
             weather_text.insert(tk.END, weather_info)
-        else:
-            weather_text.insert(tk.END, "Failed to retrieve weather data.")
+        except ValueError:
+            weather_text.insert(tk.END, "Please enter valid dates in YYYY-MM-DD format.")
     else:
         weather_text.insert(tk.END, "Please enter destination and travel dates.")
-
 
 def get_recommendations():
     # Mock function to simulate recommendations based on weather
