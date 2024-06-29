@@ -1,0 +1,138 @@
+[
+    {
+      "id": 1,
+      "name": "Wool Sweater",
+      "category": "Tops",
+      "gender": "Unisex",
+      "color": ["Red", "Green", "Blue"],
+      "description": "Warm wool sweater with a classic fit.",
+      "temperature_range": "30-50°F"
+    },
+    {
+      "id": 2,
+      "name": "Thermal Leggings",
+      "category": "Bottoms",
+      "gender": "Unisex",
+      "color": ["Black", "Grey"],
+      "description": "Thermal leggings for extra warmth during winter.",
+      "temperature_range": "30-50°F"
+    },
+    {
+      "id": 3,
+      "name": "Snow Boots",
+      "category": "Footwear",
+      "gender": "Unisex",
+      "color": ["Brown", "Black"],
+      "description": "Insulated snow boots with waterproof exterior.",
+      "temperature_range": "30-50°F"
+    },
+    {
+      "id": 4,
+      "name": "Winter Coat",
+      "category": "Outerwear",
+      "gender": "Unisex",
+      "color": ["Black", "Grey", "Navy"],
+      "description": "Heavy-duty winter coat for extreme cold.",
+      "temperature_range": "0-30°F"
+    },
+    {
+      "id": 5,
+      "name": "Beanie Hat",
+      "category": "Accessories",
+      "gender": "Unisex",
+      "color": ["Black", "Grey", "Red"],
+      "description": "Warm beanie hat for winter weather.",
+      "temperature_range": "0-50°F"
+    },
+    {
+      "id": 6,
+      "name": "Scarf",
+      "category": "Accessories",
+      "gender": "Unisex",
+      "color": ["Red", "Green", "Blue"],
+      "description": "Cozy wool scarf to keep you warm.",
+      "temperature_range": "0-50°F"
+    },
+    {
+      "id": 7,
+      "name": "Gloves",
+      "category": "Accessories",
+      "gender": "Unisex",
+      "color": ["Black", "Grey", "Navy"],
+      "description": "Insulated gloves for winter.",
+      "temperature_range": "0-50°F"
+    },
+    {
+      "id": 8,
+      "name": "Thermal Socks",
+      "category": "Accessories",
+      "gender": "Unisex",
+      "color": ["Black", "Grey", "Navy"],
+      "description": "Thick thermal socks for cold weather.",
+      "temperature_range": "0-50°F"
+    },
+    {
+      "id": 9,
+      "name": "Puffer Jacket",
+      "category": "Outerwear",
+      "gender": "Unisex",
+      "color": ["Black", "Blue", "Green"],
+      "description": "Lightweight puffer jacket with high insulation.",
+      "temperature_range": "0-30°F"
+    },
+    {
+      "id": 10,
+      "name": "Fleece Pants",
+      "category": "Bottoms",
+      "gender": "Unisex",
+      "color": ["Black", "Grey", "Navy"],
+      "description": "Comfortable fleece pants for indoor and outdoor use.",
+      "temperature_range": "30-50°F"
+    },
+    {
+      "id": 11,
+      "name": "Wool Coat",
+      "category": "Outerwear",
+      "gender": "Unisex",
+      "color": ["Black", "Brown", "Grey"],
+      "description": "Elegant wool coat for formal winter wear.",
+      "temperature_range": "0-30°F"
+    },
+    {
+      "id": 12,
+      "name": "Winter Boots",
+      "category": "Footwear",
+      "gender": "Unisex",
+      "color": ["Black", "Brown"],
+      "description": "Sturdy winter boots for snowy conditions.",
+      "temperature_range": "0-30°F"
+    },
+    {
+      "id": 13,
+      "name": "Down Vest",
+      "category": "Outerwear",
+      "gender": "Unisex",
+      "color": ["Black", "Blue", "Red"],
+      "description": "Warm down vest for layering in cold weather.",
+      "temperature_range": "30-50°F"
+    },
+    {
+      "id": 14,
+      "name": "Turtleneck Sweater",
+      "category": "Tops",
+      "gender": "Unisex",
+      "color": ["Black", "Grey", "White"],
+      "description": "Cozy turtleneck sweater for added warmth.",
+      "temperature_range": "30-50°F"
+    },
+    {
+      "id": 15,
+      "name": "Winter Skirt",
+      "category": "Bottoms",
+      "gender": "Woman",
+      "color": ["Black", "Grey", "Red"],
+      "description": "Stylish winter skirt made from warm fabric.",
+      "temperature_range": "30-50°F"
+    }
+  ]
+  
