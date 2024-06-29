@@ -48,7 +48,7 @@
       "id": 6,
       "name": "Summer Dress",
       "category": "Dresses",
-      "gender": "Female",
+      "gender": "Woman",
       "color": ["Floral", "Yellow", "Pink"],
       "description": "Flowy summer dress with floral prints.",
       "temperature_range": "75-95°F"
@@ -57,7 +57,7 @@
       "id": 7,
       "name": "Swim Trunks",
       "category": "Swimwear",
-      "gender": "Male",
+      "gender": "Man",
       "color": ["Blue", "Green", "Black"],
       "description": "Quick-dry swim trunks for the pool or beach.",
       "temperature_range": "75-95°F"
@@ -84,7 +84,7 @@
       "id": 10,
       "name": "Sleeveless Blouse",
       "category": "Tops",
-      "gender": "Female",
+      "gender": "Woman",
       "color": ["White", "Pink", "Blue"],
       "description": "Elegant sleeveless blouse for summer evenings.",
       "temperature_range": "75-95°F"
@@ -93,7 +93,7 @@
       "id": 11,
       "name": "Board Shorts",
       "category": "Bottoms",
-      "gender": "Male",
+      "gender": "Man",
       "color": ["Navy", "Red", "Green"],
       "description": "Comfortable board shorts for beach activities.",
       "temperature_range": "75-95°F"
@@ -102,7 +102,7 @@
       "id": 12,
       "name": "Maxi Dress",
       "category": "Dresses",
-      "gender": "Female",
+      "gender": "Woman",
       "color": ["Blue", "Red", "Green"],
       "description": "Long flowy maxi dress for a casual summer look.",
       "temperature_range": "75-95°F"
@@ -129,7 +129,7 @@
       "id": 15,
       "name": "Tankini",
       "category": "Swimwear",
-      "gender": "Female",
+      "gender": "Woman",
       "color": ["Blue", "Black", "Red"],
       "description": "Two-piece tankini set for swimming.",
       "temperature_range": "75-95°F"
