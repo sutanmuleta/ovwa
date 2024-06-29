@@ -1,5 +1,32 @@
 import tkinter as tk
-from tkinter import ttk
+from tkinter import ttk, messagebox
+
+def show_home():
+    hide_all_frames()
+    home_frame.pack(fill="both", expand=True)
+
+def show_plan_trip():
+    hide_all_frames()
+    plan_trip_frame.pack(fill="both", expand=True)
+
+def show_recommendations():
+    hide_all_frames()
+    recommendations_frame.pack(fill="both", expand=True)
+
+def show_settings():
+    hide_all_frames()
+    settings_frame.pack(fill="both", expand=True)
+
+def show_help():
+    hide_all_frames()
+    help_frame.pack(fill="both", expand=True)
+
+def hide_all_frames():
+    home_frame.pack_forget()
+    plan_trip_frame.pack_forget()
+    recommendations_frame.pack_forget()
+    settings_frame.pack_forget()
+    help_frame.pack_forget()
 
 def create_main_window():
     root = tk.Tk()
@@ -19,22 +46,23 @@ def create_main_window():
     menu_frame = tk.Frame(header_frame, bg="lightblue")
     menu_frame.pack(side="right", padx=10, pady=10)
 
-    home_button = tk.Button(menu_frame, text="Home")
+    home_button = tk.Button(menu_frame, text="Home", command=show_home)
     home_button.pack(side="left", padx=5)
 
-    plan_trip_button = tk.Button(menu_frame, text="Plan Your Trip")
+    plan_trip_button = tk.Button(menu_frame, text="Plan Your Trip", command=show_plan_trip)
     plan_trip_button.pack(side="left", padx=5)
 
-    recommendations_button = tk.Button(menu_frame, text="Recommendations")
+    recommendations_button = tk.Button(menu_frame, text="Recommendations", command=show_recommendations)
     recommendations_button.pack(side="left", padx=5)
 
-    settings_button = tk.Button(menu_frame, text="Settings")
+    settings_button = tk.Button(menu_frame, text="Settings", command=show_settings)
     settings_button.pack(side="left", padx=5)
 
-    help_button = tk.Button(menu_frame, text="Help")
+    help_button = tk.Button(menu_frame, text="Help", command=show_help)
     help_button.pack(side="left", padx=5)
 
     # Home Screen
+    global home_frame
     home_frame = tk.Frame(root)
     home_frame.pack(fill="both", expand=True)
 
@@ -44,11 +72,84 @@ def create_main_window():
     quick_access_frame = tk.Frame(home_frame)
     quick_access_frame.pack(pady=20)
 
-    plan_trip_quick_button = tk.Button(quick_access_frame, text="Plan Your Trip")
+    plan_trip_quick_button = tk.Button(quick_access_frame, text="Plan Your Trip", command=show_plan_trip)
     plan_trip_quick_button.pack(side="left", padx=20)
 
-    view_recommendations_button = tk.Button(quick_access_frame, text="View Recommendations")
+    view_recommendations_button = tk.Button(quick_access_frame, text="View Recommendations", command=show_recommendations)
     view_recommendations_button.pack(side="left", padx=20)
+
+    # Plan Your Trip Screen
+    global plan_trip_frame
+    plan_trip_frame = tk.Frame(root)
+
+    destination_label = tk.Label(plan_trip_frame, text="Enter Destination")
+    destination_label.pack(pady=5)
+    destination_entry = tk.Entry(plan_trip_frame)
+    destination_entry.pack(pady=5)
+
+    dates_label = tk.Label(plan_trip_frame, text="Select Travel Dates")
+    dates_label.pack(pady=5)
+    dates_entry = tk.Entry(plan_trip_frame)
+    dates_entry.pack(pady=5)
+
+    submit_button = tk.Button(plan_trip_frame, text="Get Recommendations")
+    submit_button.pack(pady=20)
+
+    weather_label = tk.Label(plan_trip_frame, text="Weather Forecast")
+    weather_label.pack(pady=5)
+    weather_text = tk.Text(plan_trip_frame, height=10, width=50)
+    weather_text.pack(pady=5)
+
+    wardrobe_label = tk.Label(plan_trip_frame, text="Wardrobe Recommendations")
+    wardrobe_label.pack(pady=5)
+    wardrobe_text = tk.Text(plan_trip_frame, height=10, width=50)
+    wardrobe_text.pack(pady=5)
+
+    # Recommendations Screen
+    global recommendations_frame
+    recommendations_frame = tk.Frame(root)
+
+    saved_recommendations_label = tk.Label(recommendations_frame, text="Your Saved Recommendations")
+    saved_recommendations_label.pack(pady=5)
+    saved_recommendations_listbox = tk.Listbox(recommendations_frame)
+    saved_recommendations_listbox.pack(pady=5)
+
+    recommendation_details_label = tk.Label(recommendations_frame, text="Recommendation Details")
+    recommendation_details_label.pack(pady=5)
+    recommendation_details_text = tk.Text(recommendations_frame, height=10, width=50)
+    recommendation_details_text.pack(pady=5)
+
+    # Settings Screen
+    global settings_frame
+    settings_frame = tk.Frame(root)
+
+    language_label = tk.Label(settings_frame, text="Select Language")
+    language_label.pack(pady=5)
+    language_dropdown = ttk.Combobox(settings_frame, values=["English", "Spanish", "French"])
+    language_dropdown.pack(pady=5)
+
+    theme_label = tk.Label(settings_frame, text="Select Theme")
+    theme_label.pack(pady=5)
+    theme_dropdown = ttk.Combobox(settings_frame, values=["Light", "Dark"])
+    theme_dropdown.pack(pady=5)
+
+    notifications_var = tk.IntVar()
+    notifications_checkbutton = tk.Checkbutton(settings_frame, text="Enable Notifications", variable=notifications_var)
+    notifications_checkbutton.pack(pady=5)
+
+    # Help Screen
+    global help_frame
+    help_frame = tk.Frame(root)
+
+    faq_label = tk.Label(help_frame, text="Frequently Asked Questions")
+    faq_label.pack(pady=5)
+    faq_text = tk.Text(help_frame, height=10, width=50)
+    faq_text.pack(pady=5)
+
+    contact_support_label = tk.Label(help_frame, text="Need Help? Contact Us")
+    contact_support_label.pack(pady=5)
+    contact_support_button = tk.Button(help_frame, text="Send Email", command=lambda: messagebox.showinfo("Contact Us", "Email us at support@ovwa.com"))
+    contact_support_button.pack(pady=5)
 
     # Footer Section
     footer_frame = tk.Frame(root, bg="lightgray")
