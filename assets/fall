@@ -1,0 +1,138 @@
+[
+    {
+      "id": 1,
+      "name": "Hoodie",
+      "category": "Tops",
+      "gender": "Unisex",
+      "color": ["Black", "Grey", "Navy"],
+      "description": "A cozy hoodie for cooler fall days.",
+      "temperature_range": "45-65°F"
+    },
+    {
+      "id": 2,
+      "name": "Corduroy Pants",
+      "category": "Bottoms",
+      "gender": "Unisex",
+      "color": ["Brown", "Olive"],
+      "description": "Classic corduroy pants with a comfortable fit.",
+      "temperature_range": "45-65°F"
+    },
+    {
+      "id": 3,
+      "name": "Ankle Boots",
+      "category": "Footwear",
+      "gender": "Unisex",
+      "color": ["Black", "Brown"],
+      "description": "Stylish ankle boots perfect for fall.",
+      "temperature_range": "45-65°F"
+    },
+    {
+      "id": 4,
+      "name": "Plaid Shirt",
+      "category": "Tops",
+      "gender": "Unisex",
+      "color": ["Red", "Green", "Blue"],
+      "description": "Comfortable plaid shirt for layering.",
+      "temperature_range": "45-65°F"
+    },
+    {
+      "id": 5,
+      "name": "Lightweight Sweater",
+      "category": "Tops",
+      "gender": "Unisex",
+      "color": ["Beige", "Grey", "Blue"],
+      "description": "A lightweight sweater for transitional weather.",
+      "temperature_range": "45-65°F"
+    },
+    {
+      "id": 6,
+      "name": "Trench Coat",
+      "category": "Outerwear",
+      "gender": "Unisex",
+      "color": ["Beige", "Navy", "Black"],
+      "description": "Classic trench coat for rainy fall days.",
+      "temperature_range": "45-65°F"
+    },
+    {
+      "id": 7,
+      "name": "Leather Jacket",
+      "category": "Outerwear",
+      "gender": "Unisex",
+      "color": ["Black", "Brown"],
+      "description": "Stylish leather jacket for a chic fall look.",
+      "temperature_range": "45-65°F"
+    },
+    {
+      "id": 8,
+      "name": "Knitted Scarf",
+      "category": "Accessories",
+      "gender": "Unisex",
+      "color": ["Red", "Grey", "Black"],
+      "description": "Warm knitted scarf for added comfort.",
+      "temperature_range": "45-65°F"
+    },
+    {
+      "id": 9,
+      "name": "Beanie Hat",
+      "category": "Accessories",
+      "gender": "Unisex",
+      "color": ["Black", "Grey", "Red"],
+      "description": "Cozy beanie hat for cool fall evenings.",
+      "temperature_range": "45-65°F"
+    },
+    {
+      "id": 10,
+      "name": "Wool Socks",
+      "category": "Accessories",
+      "gender": "Unisex",
+      "color": ["Black", "Grey", "Brown"],
+      "description": "Comfortable wool socks for cooler temperatures.",
+      "temperature_range": "45-65°F"
+    },
+    {
+      "id": 11,
+      "name": "Midi Skirt",
+      "category": "Bottoms",
+      "gender": "Female",
+      "color": ["Black", "Brown", "Grey"],
+      "description": "Stylish midi skirt for a trendy fall outfit.",
+      "temperature_range": "45-65°F"
+    },
+    {
+      "id": 12,
+      "name": "Chelsea Boots",
+      "category": "Footwear",
+      "gender": "Unisex",
+      "color": ["Black", "Brown"],
+      "description": "Classic Chelsea boots for a versatile look.",
+      "temperature_range": "45-65°F"
+    },
+    {
+      "id": 13,
+      "name": "Henley Shirt",
+      "category": "Tops",
+      "gender": "Unisex",
+      "color": ["White", "Grey", "Blue"],
+      "description": "Comfortable Henley shirt for casual wear.",
+      "temperature_range": "45-65°F"
+    },
+    {
+      "id": 14,
+      "name": "Sweater Dress",
+      "category": "Dresses",
+      "gender": "Female",
+      "color": ["Black", "Grey", "Red"],
+      "description": "Cozy sweater dress for fall.",
+      "temperature_range": "45-65°F"
+    },
+    {
+      "id": 15,
+      "name": "Puffer Vest",
+      "category": "Outerwear",
+      "gender": "Unisex",
+      "color": ["Black", "Blue", "Green"],
+      "description": "Lightweight puffer vest for added warmth.",
+      "temperature_range": "45-65°F"
+    }
+  ]
+  
