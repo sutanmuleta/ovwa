@@ -1,0 +1,737 @@
+    {
+      "id": 1,
+      "name": "Hoodie",
+      "category": "Tops",
+      "gender": "Unisex",
+      "color": ["Black", "Grey", "Navy"],
+      "description": "A cozy hoodie for cooler fall days.",
+      "temperature_range": "45-65°F",
+      "season": "Fall"
+    },
+    {
+      "id": 2,
+      "name": "Corduroy Pants",
+      "category": "Bottoms",
+      "gender": "Unisex",
+      "color": ["Brown", "Olive"],
+      "description": "Classic corduroy pants with a comfortable fit.",
+      "temperature_range": "45-65°F",
+      "season": "Fall"
+    },
+    {
+      "id": 3,
+      "name": "Ankle Boots",
+      "category": "Footwear",
+      "gender": "Unisex",
+      "color": ["Black", "Brown"],
+      "description": "Stylish ankle boots perfect for fall.",
+      "temperature_range": "45-65°F",
+      "season": "Fall"
+    },
+    {
+      "id": 4,
+      "name": "Plaid Shirt",
+      "category": "Tops",
+      "gender": "Unisex",
+      "color": ["Red", "Green", "Blue"],
+      "description": "Comfortable plaid shirt for layering.",
+      "temperature_range": "45-65°F",
+      "season": "Fall"
+    },
+    {
+      "id": 5,
+      "name": "Lightweight Sweater",
+      "category": "Tops",
+      "gender": "Unisex",
+      "color": ["Beige", "Grey", "Blue"],
+      "description": "A lightweight sweater for transitional weather.",
+      "temperature_range": "45-65°F",
+      "season": "Fall"
+    },
+    {
+      "id": 6,
+      "name": "Trench Coat",
+      "category": "Outerwear",
+      "gender": "Unisex",
+      "color": ["Beige", "Navy", "Black"],
+      "description": "Classic trench coat for rainy fall days.",
+      "temperature_range": "45-65°F",
+      "season": "Fall"
+    },
+    {
+      "id": 7,
+      "name": "Leather Jacket",
+      "category": "Outerwear",
+      "gender": "Unisex",
+      "color": ["Black", "Brown"],
+      "description": "Stylish leather jacket for a chic fall look.",
+      "temperature_range": "45-65°F",
+      "season": "Fall"
+    },
+    {
+      "id": 8,
+      "name": "Knitted Scarf",
+      "category": "Accessories",
+      "gender": "Unisex",
+      "color": ["Red", "Grey", "Black"],
+      "description": "Warm knitted scarf for added comfort.",
+      "temperature_range": "45-65°F",
+      "season": "Fall"
+    },
+    {
+      "id": 9,
+      "name": "Beanie Hat",
+      "category": "Accessories",
+      "gender": "Unisex",
+      "color": ["Black", "Grey", "Red"],
+      "description": "Cozy beanie hat for cool fall evenings.",
+      "temperature_range": "45-65°F",
+      "season": "Fall"
+    },
+    {
+      "id": 10,
+      "name": "Wool Socks",
+      "category": "Accessories",
+      "gender": "Unisex",
+      "color": ["Black", "Grey", "Brown"],
+      "description": "Comfortable wool socks for cooler temperatures.",
+      "temperature_range": "45-65°F",
+      "season": "Fall"
+    },
+    {
+      "id": 11,
+      "name": "Midi Skirt",
+      "category": "Bottoms",
+      "gender": "Woman",
+      "color": ["Black", "Brown", "Grey"],
+      "description": "Stylish midi skirt for a trendy fall outfit.",
+      "temperature_range": "45-65°F",
+      "season": "Fall"
+    },
+    {
+      "id": 12,
+      "name": "Chelsea Boots",
+      "category": "Footwear",
+      "gender": "Unisex",
+      "color": ["Black", "Brown"],
+      "description": "Classic Chelsea boots for a versatile look.",
+      "temperature_range": "45-65°F",
+      "season": "Fall"
+    },
+    {
+      "id": 13,
+      "name": "Henley Shirt",
+      "category": "Tops",
+      "gender": "Unisex",
+      "color": ["White", "Grey", "Blue"],
+      "description": "Comfortable Henley shirt for casual wear.",
+      "temperature_range": "45-65°F",
+      "season": "Fall"
+    },
+    {
+      "id": 14,
+      "name": "Sweater Dress",
+      "category": "Dresses",
+      "gender": "Woman",
+      "color": ["Black", "Grey", "Red"],
+      "description": "Cozy sweater dress for fall.",
+      "temperature_range": "45-65°F",
+      "season": "Fall"
+    },
+    {
+      "id": 15,
+      "name": "Puffer Vest",
+      "category": "Outerwear",
+      "gender": "Unisex",
+      "color": ["Black", "Blue", "Green"],
+      "description": "Lightweight puffer vest for added warmth.",
+      "temperature_range": "45-65°F",
+      "season": "Fall"
+    },
+    {
+      "id": 16,
+      "name": "Denim Jacket",
+      "category": "Outerwear",
+      "gender": "Unisex",
+      "color": ["Black", "Blue", "Gray"],
+      "description": "Lightweight Denim Jacket for added warmth.",
+      "temperature_range": "45-65°F",
+      "season": "Fall"
+    },
+    {
+      "id": 17,
+      "name": "Hoodie",
+      "category": "Tops",
+      "gender": "Unisex",
+      "color": ["Black", "Grey", "Navy"],
+      "description": "A cozy hoodie for cooler fall days.",
+      "temperature_range": "45-65°F",
+      "season": "Fall"
+    },
+    {
+      "id": 18,
+      "name": "Corduroy Pants",
+      "category": "Bottoms",
+      "gender": "Unisex",
+      "color": ["Brown", "Olive"],
+      "description": "Classic corduroy pants with a comfortable fit.",
+      "temperature_range": "45-65°F",
+      "season": "Fall"
+    },
+    {
+      "id": 19,
+      "name": "Ankle Boots",
+      "category": "Footwear",
+      "gender": "Unisex",
+      "color": ["Black", "Brown"],
+      "description": "Stylish ankle boots perfect for fall.",
+      "temperature_range": "45-65°F",
+      "season": "Fall"
+    },
+    {
+      "id": 20,
+      "name": "Plaid Shirt",
+      "category": "Tops",
+      "gender": "Unisex",
+      "color": ["Red", "Green", "Blue"],
+      "description": "Comfortable plaid shirt for layering.",
+      "temperature_range": "45-65°F",
+      "season": "Fall"
+    },
+    {
+      "id": 21,
+      "name": "Lightweight Sweater",
+      "category": "Tops",
+      "gender": "Unisex",
+      "color": ["Beige", "Grey", "Blue"],
+      "description": "A lightweight sweater for transitional weather.",
+      "temperature_range": "45-65°F",
+      "season": "Fall"
+    },
+    {
+      "id": 22,
+      "name": "Trench Coat",
+      "category": "Outerwear",
+      "gender": "Unisex",
+      "color": ["Beige", "Navy", "Black"],
+      "description": "Classic trench coat for rainy fall days.",
+      "temperature_range": "45-65°F",
+      "season": "Fall"
+    },
+    {
+      "id": 23,
+      "name": "Leather Jacket",
+      "category": "Outerwear",
+      "gender": "Unisex",
+      "color": ["Black", "Brown"],
+      "description": "Stylish leather jacket for a chic fall look.",
+      "temperature_range": "45-65°F",
+      "season": "Fall"
+    },
+    {
+      "id": 24,
+      "name": "Knitted Scarf",
+      "category": "Accessories",
+      "gender": "Unisex",
+      "color": ["Red", "Grey", "Black"],
+      "description": "Warm knitted scarf for added comfort.",
+      "temperature_range": "45-65°F",
+      "season": "Fall"
+    },
+    {
+      "id": 25,
+      "name": "Beanie Hat",
+      "category": "Accessories",
+      "gender": "Unisex",
+      "color": ["Black", "Grey", "Red"],
+      "description": "Cozy beanie hat for cool fall evenings.",
+      "temperature_range": "45-65°F",
+      "season": "Fall"
+    },
+    {
+      "id": 26,
+      "name": "Wool Socks",
+      "category": "Accessories",
+      "gender": "Unisex",
+      "color": ["Black", "Grey", "Brown"],
+      "description": "Comfortable wool socks for cooler temperatures.",
+      "temperature_range": "45-65°F",
+      "season": "Fall"
+    },
+    {
+      "id": 27,
+      "name": "Midi Skirt",
+      "category": "Bottoms",
+      "gender": "Woman",
+      "color": ["Black", "Brown", "Grey"],
+      "description": "Stylish midi skirt for a trendy fall outfit.",
+      "temperature_range": "45-65°F",
+      "season": "Fall"
+    },
+    {
+      "id": 28,
+      "name": "Chelsea Boots",
+      "category": "Footwear",
+      "gender": "Unisex",
+      "color": ["Black", "Brown"],
+      "description": "Classic Chelsea boots for a versatile look.",
+      "temperature_range": "45-65°F",
+      "season": "Fall"
+    },
+    {
+      "id": 29,
+      "name": "Henley Shirt",
+      "category": "Tops",
+      "gender": "Woman",
+      "color": ["White", "Grey", "Blue"],
+      "description": "Comfortable Henley shirt for casual wear.",
+      "temperature_range": "45-65°F",
+      "season": "Fall"
+    },
+    {
+      "id": 30,
+      "name": "Sweater Dress",
+      "category": "Dresses",
+      "gender": "Woman",
+      "color": ["Black", "Grey", "Red"],
+      "description": "Cozy sweater dress for fall.",
+      "temperature_range": "45-65°F",
+      "season": "Fall"
+    },
+    {
+      "id": 31,
+      "name": "Puffer Vest",
+      "category": "Outerwear",
+      "gender": "Unisex",
+      "color": ["Black", "Blue", "Green"],
+      "description": "Lightweight puffer vest for added warmth.",
+      "temperature_range": "45-65°F",
+      "season": "Fall"
+    },
+    {
+      "id": 32,
+      "name": "Classic T-Shirt",
+      "category": "Tops",
+      "gender": "Unisex",
+      "color": ["White", "Black", "Grey"],
+      "description": "A classic crew neck t-shirt made from 100% cotton.",
+      "temperature_range": "75-95°F",
+      "season": "Summer"
+    },
+    {
+      "id": 33,
+      "name": "Denim Shorts",
+      "category": "Bottoms",
+      "gender": "Unisex",
+      "color": ["Blue", "Black"],
+      "description": "Casual denim shorts with a frayed hem.",
+      "temperature_range": "75-95°F",
+      "season": "Summer"
+    },
+    {
+      "id": 34,
+      "name": "Flip Flops",
+      "category": "Footwear",
+      "gender": "Unisex",
+      "color": ["Blue", "Black", "Red"],
+      "description": "Comfortable rubber flip flops for the beach.",
+      "temperature_range": "75-95°F",
+      "season": "Summer"
+    },
+    {
+      "id": 35,
+      "name": "Sun Hat",
+      "category": "Accessories",
+      "gender": "Unisex",
+      "color": ["Beige", "White"],
+      "description": "Wide-brimmed sun hat for extra sun protection.",
+      "temperature_range": "75-95°F",
+      "season": "Summer"
+    },
+    {
+      "id": 36,
+      "name": "Tank Top",
+      "category": "Tops",
+      "gender": "Unisex",
+      "color": ["Blue", "Red", "Green"],
+      "description": "Lightweight tank top ideal for hot summer days.",
+      "temperature_range": "75-95°F",
+      "season": "Summer"
+    },
+    {
+      "id": 37,
+      "name": "Summer Dress",
+      "category": "Dresses",
+      "gender": "Woman",
+      "color": ["Floral", "Yellow", "Pink"],
+      "description": "Flowy summer dress with floral prints.",
+      "temperature_range": "75-95°F",
+      "season": "Summer"
+    },
+    {
+      "id": 38,
+      "name": "Swim Trunks",
+      "category": "Swimwear",
+      "gender": "Man",
+      "color": ["Blue", "Green", "Black"],
+      "description": "Quick-dry swim trunks for the pool or beach.",
+      "temperature_range": "75-95°F",
+      "season": "Summer"
+    },
+    {
+      "id": 39,
+      "name": "Sunglasses",
+      "category": "Accessories",
+      "gender": "Unisex",
+      "color": ["Black", "Brown", "Grey"],
+      "description": "Stylish sunglasses with UV protection.",
+      "temperature_range": "75-95°F",
+      "season": "Summer"
+    },
+    {
+      "id": 40,
+      "name": "Beach Towel",
+      "category": "Accessories",
+      "gender": "Unisex",
+      "color": ["Blue", "Yellow", "Red"],
+      "description": "Large beach towel with vibrant colors.",
+      "temperature_range": "75-95°F",
+      "season": "Summer"
+    },
+    {
+      "id": 41,
+      "name": "Sleeveless Blouse",
+      "category": "Tops",
+      "gender": "Woman",
+      "color": ["White", "Pink", "Blue"],
+      "description": "Elegant sleeveless blouse for summer evenings.",
+      "temperature_range": "75-95°F",
+      "season": "Summer"
+    },
+    {
+      "id": 42,
+      "name": "Board Shorts",
+      "category": "Bottoms",
+      "gender": "Man",
+      "color": ["Navy", "Red", "Green"],
+      "description": "Comfortable board shorts for beach activities.",
+      "temperature_range": "75-95°F",
+      "season": "Summer"
+    },
+    {
+      "id": 43,
+      "name": "Maxi Dress",
+      "category": "Dresses",
+      "gender": "Woman",
+      "color": ["Blue", "Red", "Green"],
+      "description": "Long flowy maxi dress for a casual summer look.",
+      "temperature_range": "75-95°F",
+      "season": "Summer"
+    },
+    {
+      "id": 44,
+      "name": "Capri Pants",
+      "category": "Bottoms",
+      "gender": "Unisex",
+      "color": ["White", "Black", "Blue"],
+      "description": "Lightweight capri pants for comfort in the heat.",
+      "temperature_range": "75-95°F",
+      "season": "Summer"
+    },
+    {
+      "id": 45,
+      "name": "Sandals",
+      "category": "Footwear",
+      "gender": "Unisex",
+      "color": ["Brown", "Black", "Tan"],
+      "description": "Comfortable sandals for casual summer wear.",
+      "temperature_range": "75-95°F",
+      "season": "Summer"
+    },
+    {
+      "id": 46,
+      "name": "Tankini",
+      "category": "Swimwear",
+      "gender": "Woman",
+      "color": ["Blue", "Black", "Red"],
+      "description": "Two-piece tankini set for swimming.",
+      "temperature_range": "75-95°F",
+      "season": "Summer"
+    },
+    {
+      "id": 47,
+      "name": "Wool Sweater",
+      "category": "Tops",
+      "gender": "Unisex",
+      "color": ["Red", "Green", "Blue"],
+      "description": "Warm wool sweater with a classic fit.",
+      "temperature_range": "30-50°F",
+      "season": "Winter"
+    },
+    {
+      "id": 48,
+      "name": "Thermal Leggings",
+      "category": "Bottoms",
+      "gender": "Unisex",
+      "color": ["Black", "Grey"],
+      "description": "Thermal leggings for extra warmth during winter.",
+      "temperature_range": "30-50°F",
+      "season": "Winter"
+    },
+    {
+      "id": 49,
+      "name": "Snow Boots",
+      "category": "Footwear",
+      "gender": "Unisex",
+      "color": ["Brown", "Black"],
+      "description": "Insulated snow boots with waterproof exterior.",
+      "temperature_range": "30-50°F",
+      "season": "Winter"
+    },
+    {
+      "id": 50,
+      "name": "Winter Coat",
+      "category": "Outerwear",
+      "gender": "Unisex",
+      "color": ["Black", "Grey", "Navy"],
+      "description": "Heavy-duty winter coat for extreme cold.",
+      "temperature_range": "0-30°F",
+      "season": "Winter"
+    },
+    {
+      "id": 51,
+      "name": "Beanie Hat",
+      "category": "Accessories",
+      "gender": "Unisex",
+      "color": ["Black", "Grey", "Red"],
+      "description": "Warm beanie hat for winter weather.",
+      "temperature_range": "0-50°F",
+      "season": "Winter"
+    },
+    [
+        {
+          "id": 51,
+          "name": "Beanie Hat",
+          "category": "Accessories",
+          "gender": "Unisex",
+          "color": ["Black", "Grey", "Red"],
+          "description": "Warm beanie hat for winter weather.",
+          "temperature_range": "0-50°F",
+          "season": "Winter"
+        },
+        {
+          "id": 52,
+          "name": "Scarf",
+          "category": "Accessories",
+          "gender": "Unisex",
+          "color": ["Red", "Green", "Blue"],
+          "description": "Cozy wool scarf to keep you warm.",
+          "temperature_range": "0-50°F",
+          "season": "Winter"
+        },
+        {
+          "id": 53,
+          "name": "Gloves",
+          "category": "Accessories",
+          "gender": "Unisex",
+          "color": ["Black", "Grey", "Navy"],
+          "description": "Insulated gloves for winter.",
+          "temperature_range": "0-50°F",
+          "season": "Winter"
+        },
+        {
+          "id": 54,
+          "name": "Thermal Socks",
+          "category": "Accessories",
+          "gender": "Unisex",
+          "color": ["Black", "Grey", "Navy"],
+          "description": "Thick thermal socks for cold weather.",
+          "temperature_range": "0-50°F",
+          "season": "Winter"
+        },
+        {
+          "id": 55,
+          "name": "Puffer Jacket",
+          "category": "Outerwear",
+          "gender": "Unisex",
+          "color": ["Black", "Blue", "Green"],
+          "description": "Lightweight puffer jacket with high insulation.",
+          "temperature_range": "0-30°F",
+          "season": "Winter"
+        },
+        {
+          "id": 56,
+          "name": "Fleece Pants",
+          "category": "Bottoms",
+          "gender": "Unisex",
+          "color": ["Black", "Grey", "Navy"],
+          "description": "Comfortable fleece pants for indoor and outdoor use.",
+          "temperature_range": "30-50°F",
+          "season": "Winter"
+        },
+        {
+          "id": 57,
+          "name": "Wool Coat",
+          "category": "Outerwear",
+          "gender": "Unisex",
+          "color": ["Black", "Brown", "Grey"],
+          "description": "Elegant wool coat for formal winter wear.",
+          "temperature_range": "0-30°F",
+          "season": "Winter"
+        },
+        {
+          "id": 58,
+          "name": "Winter Boots",
+          "category": "Footwear",
+          "gender": "Unisex",
+          "color": ["Black", "Brown"],
+          "description": "Sturdy winter boots for snowy conditions.",
+          "temperature_range": "0-30°F",
+          "season": "Winter"
+        },
+        {
+          "id": 59,
+          "name": "Down Vest",
+          "category": "Outerwear",
+          "gender": "Unisex",
+          "color": ["Black", "Blue", "Red"],
+          "description": "Warm down vest for layering in cold weather.",
+          "temperature_range": "30-50°F",
+          "season": "Winter"
+        },
+        {
+          "id": 60,
+          "name": "Turtleneck Sweater",
+          "category": "Tops",
+          "gender": "Unisex",
+          "color": ["Black", "Grey", "White"],
+          "description": "Cozy turtleneck sweater for added warmth.",
+          "temperature_range": "30-50°F",
+          "season": "Winter"
+        },
+        {
+          "id": 61,
+          "name": "Winter Skirt",
+          "category": "Bottoms",
+          "gender": "Woman",
+          "color": ["Black", "Grey", "Red"],
+          "description": "Stylish winter skirt made from warm fabric.",
+          "temperature_range": "30-50°F",
+          "season": "Winter"
+        }
+    ]
+    [
+        {
+          "id": 51,
+          "name": "Beanie Hat",
+          "category": "Accessories",
+          "gender": "Unisex",
+          "color": ["Black", "Grey", "Red"],
+          "description": "Warm beanie hat for winter weather.",
+          "temperature_range": "0-50°F",
+          "season": "Winter"
+        },
+        {
+          "id": 52,
+          "name": "Scarf",
+          "category": "Accessories",
+          "gender": "Unisex",
+          "color": ["Red", "Green", "Blue"],
+          "description": "Cozy wool scarf to keep you warm.",
+          "temperature_range": "0-50°F",
+          "season": "Winter"
+        },
+        {
+          "id": 53,
+          "name": "Gloves",
+          "category": "Accessories",
+          "gender": "Unisex",
+          "color": ["Black", "Grey", "Navy"],
+          "description": "Insulated gloves for winter.",
+          "temperature_range": "0-50°F",
+          "season": "Winter"
+        },
+        {
+          "id": 54,
+          "name": "Thermal Socks",
+          "category": "Accessories",
+          "gender": "Unisex",
+          "color": ["Black", "Grey", "Navy"],
+          "description": "Thick thermal socks for cold weather.",
+          "temperature_range": "0-50°F",
+          "season": "Winter"
+        },
+        {
+          "id": 55,
+          "name": "Puffer Jacket",
+          "category": "Outerwear",
+          "gender": "Unisex",
+          "color": ["Black", "Blue", "Green"],
+          "description": "Lightweight puffer jacket with high insulation.",
+          "temperature_range": "0-30°F",
+          "season": "Winter"
+        },
+        {
+          "id": 56,
+          "name": "Fleece Pants",
+          "category": "Bottoms",
+          "gender": "Unisex",
+          "color": ["Black", "Grey", "Navy"],
+          "description": "Comfortable fleece pants for indoor and outdoor use.",
+          "temperature_range": "30-50°F",
+          "season": "Winter"
+        },
+        {
+          "id": 57,
+          "name": "Wool Coat",
+          "category": "Outerwear",
+          "gender": "Unisex",
+          "color": ["Black", "Brown", "Grey"],
+          "description": "Elegant wool coat for formal winter wear.",
+          "temperature_range": "0-30°F",
+          "season": "Winter"
+        },
+        {
+          "id": 58,
+          "name": "Winter Boots",
+          "category": "Footwear",
+          "gender": "Unisex",
+          "color": ["Black", "Brown"],
+          "description": "Sturdy winter boots for snowy conditions.",
+          "temperature_range": "0-30°F",
+          "season": "Winter"
+        },
+        {
+          "id": 59,
+          "name": "Down Vest",
+          "category": "Outerwear",
+          "gender": "Unisex",
+          "color": ["Black", "Blue", "Red"],
+          "description": "Warm down vest for layering in cold weather.",
+          "temperature_range": "30-50°F",
+          "season": "Winter"
+        },
+        {
+          "id": 60,
+          "name": "Turtleneck Sweater",
+          "category": "Tops",
+          "gender": "Unisex",
+          "color": ["Black", "Grey", "White"],
+          "description": "Cozy turtleneck sweater for added warmth.",
+          "temperature_range": "30-50°F",
+          "season": "Winter"
+        },
+        {
+          "id": 61,
+          "name": "Winter Skirt",
+          "category": "Bottoms",
+          "gender": "Woman",
+          "color": ["Black", "Grey", "Red"],
+          "description": "Stylish winter skirt made from warm fabric.",
+          "temperature_range": "30-50°F",
+          "season": "Winter"
+        }
+        
+    ]
+]
+        
