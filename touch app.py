@@ -15,7 +15,10 @@ def get_weather_forecast():
     if city and start_date and end_date:
         try:
             weather_info = print_weather_every_3_hours(city, start_date, end_date)
-            weather_text.insert(tk.END, weather_info)
+            if weather_info:
+                weather_text.insert(tk.END, weather_info)
+            else:
+                weather_text.insert(tk.END, "Failed to retrieve weather data.")
         except ValueError:
             weather_text.insert(tk.END, "Please enter valid dates in YYYY-MM-DD format.")
     else:
