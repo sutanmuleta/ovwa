@@ -2,10 +2,10 @@ import tkinter as tk
 from tkinter import ttk, messagebox
 from tkcalendar import DateEntry
 import requests
+from check_weather import print_weather_every_3_hours
+
 
 def get_weather_forecast():
-    # Actual function to connect with OpenWeatherMap API
-    api_key = "c4079613858d4e2235c25736a3ec6d92"  # Replace with your OpenWeatherMap API key
     city = destination_dropdown.get()
     start_date = start_date_entry.get()
     end_date = end_date_entry.get()
@@ -13,24 +13,14 @@ def get_weather_forecast():
     weather_text.delete(1.0, tk.END)
     
     if city and start_date and end_date:
-        url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}"
-        
-        response = requests.get(url)
-        if response.status_code == 200:
-            weather_data = response.json()
-            weather_description = weather_data['weather'][0]['description']
-            temperature = weather_data['main']['temp'] - 273.15  # Convert from Kelvin to Celsius
-            
-            weather_info = (
-                f"Weather in {city}:\n"
-                f"Description: {weather_description}\n"
-                f"Temperature: {temperature:.2f}°C"
-            )
+        try:
+            weather_info = print_weather_every_3_hours(city, start_date, end_date)
             weather_text.insert(tk.END, weather_info)
-        else:
-            weather_text.insert(tk.END, "Failed to retrieve weather data.")
+        except ValueError:
+            weather_text.insert(tk.END, "Please enter valid dates in YYYY-MM-DD format.")
     else:
         weather_text.insert(tk.END, "Please enter destination and travel dates.")
+
 
 def get_recommendations():
     # Mock function to simulate recommendations based on weather
