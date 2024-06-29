@@ -129,7 +129,7 @@
       "id": 15,
       "name": "Winter Skirt",
       "category": "Bottoms",
-      "gender": "Female",
+      "gender": "Woman",
       "color": ["Black", "Grey", "Red"],
       "description": "Stylish winter skirt made from warm fabric.",
       "temperature_range": "30-50°F"
