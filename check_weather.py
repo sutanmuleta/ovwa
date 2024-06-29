@@ -46,6 +46,7 @@ def print_weather_every_3_hours(city, start_date, end_date):
             time = hour_data["time"]
             temp_c = hour_data["temp_c"]
             condition = hour_data["condition"]["text"]
+            print("Location is " + city + " and the date is " + date_str + " and the time is " + time)
             print(f"At {time}: Temperature: {temp_c}°C, Condition: {condition}")
         current_date += delta
 
