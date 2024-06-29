@@ -93,7 +93,7 @@
       "id": 11,
       "name": "Midi Skirt",
       "category": "Bottoms",
-      "gender": "Female",
+      "gender": "Woman",
       "color": ["Black", "Brown", "Grey"],
       "description": "Stylish midi skirt for a trendy fall outfit.",
       "temperature_range": "45-65°F"
@@ -120,7 +120,7 @@
       "id": 14,
       "name": "Sweater Dress",
       "category": "Dresses",
-      "gender": "Female",
+      "gender": "Woman",
       "color": ["Black", "Grey", "Red"],
       "description": "Cozy sweater dress for fall.",
       "temperature_range": "45-65°F"
