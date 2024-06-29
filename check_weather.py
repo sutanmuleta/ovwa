@@ -1,5 +1,3 @@
-# check_weather.py
-
 import requests
 from datetime import datetime, timedelta
 
@@ -43,3 +41,11 @@ def print_weather_every_3_hours(city, start_date, end_date):
         current_date += delta
     
     return weather_info
+
+# Example usage
+# city = "Seattle"
+# start_date = "2024-07-01"
+# end_date = "2024-07-03"
+# print_weather_every_3_hours(city, start_date, end_date)
+
+# check_weather.py
