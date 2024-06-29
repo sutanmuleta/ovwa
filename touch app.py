@@ -1,16 +1,67 @@
 import tkinter as tk
 from tkinter import ttk, messagebox
-from tkcalendar import Calendar, DateEntry
+import requests
 
 def get_weather_forecast():
-    # Placeholder function to connect with a weather API
+    # Actual function to connect with OpenWeatherMap API
+    api_key = "c4079613858d4e2235c25736a3ec6d92"  # Replace with your OpenWeatherMap API key
+    city = destination_dropdown.get()
+    start_date = start_date_entry.get()
+    end_date = end_date_entry.get()
+    
     weather_text.delete(1.0, tk.END)
-    weather_text.insert(tk.END, "Fetching weather data... (placeholder)")
+    
+    if city and start_date and end_date:
+        url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}"
+        
+        response = requests.get(url)
+        if response.status_code == 200:
+            weather_data = response.json()
+            weather_description = weather_data['weather'][0]['description']
+            temperature = weather_data['main']['temp'] - 273.15  # Convert from Kelvin to Celsius
+            
+            weather_info = (
+                f"Weather in {city}:\n"
+                f"Description: {weather_description}\n"
+                f"Temperature: {temperature:.2f}°C"
+            )
+            weather_text.insert(tk.END, weather_info)
+        else:
+            weather_text.insert(tk.END, "Failed to retrieve weather data.")
+    else:
+        weather_text.insert(tk.END, "Please enter destination and travel dates.")
 
 def get_recommendations():
-    # Placeholder function to connect with OctoAI
+    # Mock function to simulate recommendations based on weather
+    weather_info = weather_text.get(1.0, tk.END).strip()
+    
     wardrobe_text.delete(1.0, tk.END)
-    wardrobe_text.insert(tk.END, "Fetching recommendations... (placeholder)")
+    
+    if "Weather in" in weather_info:
+        if "rain" in weather_info.lower():
+            recommendations = (
+                "Wardrobe Recommendations:\n"
+                "- Waterproof jacket\n"
+                "- Umbrella\n"
+                "- Waterproof boots\n"
+            )
+        elif "clear" in weather_info.lower():
+            recommendations = (
+                "Wardrobe Recommendations:\n"
+                "- Sunglasses\n"
+                "- Light t-shirts\n"
+                "- Comfortable shoes\n"
+            )
+        else:
+            recommendations = (
+                "Wardrobe Recommendations:\n"
+                "- General clothing based on temperature\n"
+                "- Consider layers for changing conditions\n"
+            )
+        
+        wardrobe_text.insert(tk.END, recommendations)
+    else:
+        wardrobe_text.insert(tk.END, "Please fetch the weather data first.")
 
 def show_home():
     hide_all_frames()
@@ -102,13 +153,24 @@ def create_main_window():
         "San Francisco", "Amsterdam", "Toronto", "Berlin",
         "Vienna", "Moscow"
     ]
+    global destination_dropdown
     destination_dropdown = ttk.Combobox(plan_trip_frame, values=destination_options)
     destination_dropdown.pack(pady=5)
 
     dates_label = tk.Label(plan_trip_frame, text="Select Travel Dates")
     dates_label.pack(pady=5)
-    dates_entry = DateEntry(plan_trip_frame)
-    dates_entry.pack(pady=5)
+
+    start_date_label = tk.Label(plan_trip_frame, text="Start Date (YYYY-MM-DD)")
+    start_date_label.pack(pady=5)
+    global start_date_entry
+    start_date_entry = tk.Entry(plan_trip_frame)
+    start_date_entry.pack(pady=5)
+
+    end_date_label = tk.Label(plan_trip_frame, text="End Date (YYYY-MM-DD)")
+    end_date_label.pack(pady=5)
+    global end_date_entry
+    end_date_entry = tk.Entry(plan_trip_frame)
+    end_date_entry.pack(pady=5)
 
     submit_button = tk.Button(plan_trip_frame, text="Get Recommendations", command=lambda: [get_weather_forecast(), get_recommendations()])
     submit_button.pack(pady=20)
