@@ -1,5 +1,16 @@
 import tkinter as tk
 from tkinter import ttk, messagebox
+from tkcalendar import Calendar, DateEntry
+
+def get_weather_forecast():
+    # Placeholder function to connect with a weather API
+    weather_text.delete(1.0, tk.END)
+    weather_text.insert(tk.END, "Fetching weather data... (placeholder)")
+
+def get_recommendations():
+    # Placeholder function to connect with OctoAI
+    wardrobe_text.delete(1.0, tk.END)
+    wardrobe_text.insert(tk.END, "Fetching recommendations... (placeholder)")
 
 def show_home():
     hide_all_frames()
@@ -84,24 +95,33 @@ def create_main_window():
 
     destination_label = tk.Label(plan_trip_frame, text="Enter Destination")
     destination_label.pack(pady=5)
-    destination_entry = tk.Entry(plan_trip_frame)
-    destination_entry.pack(pady=5)
+    destination_options = [
+        "Paris", "New York", "Tokyo", "London", "Barcelona",
+        "Rome", "Dubai", "Singapore", "Bangkok", "Istanbul",
+        "Hong Kong", "Sydney", "Los Angeles", "Chicago",
+        "San Francisco", "Amsterdam", "Toronto", "Berlin",
+        "Vienna", "Moscow"
+    ]
+    destination_dropdown = ttk.Combobox(plan_trip_frame, values=destination_options)
+    destination_dropdown.pack(pady=5)
 
     dates_label = tk.Label(plan_trip_frame, text="Select Travel Dates")
     dates_label.pack(pady=5)
-    dates_entry = tk.Entry(plan_trip_frame)
+    dates_entry = DateEntry(plan_trip_frame)
     dates_entry.pack(pady=5)
 
-    submit_button = tk.Button(plan_trip_frame, text="Get Recommendations")
+    submit_button = tk.Button(plan_trip_frame, text="Get Recommendations", command=lambda: [get_weather_forecast(), get_recommendations()])
     submit_button.pack(pady=20)
 
     weather_label = tk.Label(plan_trip_frame, text="Weather Forecast")
     weather_label.pack(pady=5)
+    global weather_text
     weather_text = tk.Text(plan_trip_frame, height=10, width=50)
     weather_text.pack(pady=5)
 
     wardrobe_label = tk.Label(plan_trip_frame, text="Wardrobe Recommendations")
     wardrobe_label.pack(pady=5)
+    global wardrobe_text
     wardrobe_text = tk.Text(plan_trip_frame, height=10, width=50)
     wardrobe_text.pack(pady=5)
 
